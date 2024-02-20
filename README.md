@@ -12,4 +12,4 @@ Here you can find some of the codes I've written for my FPGA class:
 - 7: A Convolution Calculator</br>
   This program is intended to solve this equation: $y = \Sigma_{i=1}^{10}a_i x_i = a_1 x_1 + a_2 x_2 + ... + a_{10} x_{10}$ </br>
   Below, you can see its block diagram implementation:
-  <img src="Convolution/Block_Diagram.png" alt="bd" width="400" height="300"/>
+  <img src="FPGA_Course/Convolution/Block_Diagram.png" alt="bd" width="400" height="300"/>
