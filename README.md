@@ -9,7 +9,13 @@ Here you can find some of the codes I've written for my FPGA class:
 - 4: A 256-byte Dual Port RAM
 - 5: A LIFO Memory
 - 6: An Implementation of SPI Protocol
-- 7: A Convolution Calculator</br>
+- 7: A Sine Wave Generator: 64 samples of a 500Hz sine wave are already generated using a MATLAB program and stored in a txt file. This module has 4 states:
+    1- Pass the original data
+    2- Halves the frequency (250Hz)
+    3- Quarters the frequency (125Hz)
+    4- Quarters the frequency and halves the amplitude
+  The output of each of these states, then can be fed into a DAC
+- 8: A Convolution Calculator</br>
   This program is intended to solve this equation: $y = \Sigma_{i=1}^{10}a_i x_i = a_1 x_1 + a_2 x_2 + ... + a_{10} x_{10}$ </br>
   Below, you can see its block diagram implementation:
   
